@@ -2,6 +2,14 @@
 # coding: utf-8
 
 # In[9]:
+import subprocess
+import sys
+
+try:
+    import joblib
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "joblib"])
+    import joblib  # Try importing again after installation
 
 
 import streamlit as st
