@@ -14,7 +14,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Load Data
 def load_data():
-    file_path = "C:/Users/Utilisateur/Downloads/Project 1/Project 1/app_input.csv"
+    file_path = "../data/app_input.csv"
     df = pd.read_csv(file_path)
     return df
 
