@@ -1,6 +1,0 @@
-streamlit
-pandas
-joblib
-xgboost
-scikit-learn
-requests
